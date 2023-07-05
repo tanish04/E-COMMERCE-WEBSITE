@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My E-commerce Store - Products</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Store</h1>
+    <h4>Made by Tanish(22/28032)and Jatin(22/28019)</h4>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Products</h2>
+    <ul id="products">
+      <li>
+        <img src="Images/OIP (5).jpg " alt="Samsung HD TV">
+        <h3>Samsung HD TV</h3>
+        <p>$1300</p>
+        <button onclick="addToCart('Samsung HD TV', 1300)">Add to Cart</button>
+      </li>
+      <li>
+        <img src="Images/iphone.jpg" alt="Iphone 14">
+        <h3>Iphone 14</h3>
+        <p>$799</p>
+        <button onclick="addToCart('Iphone 14', 799)">Add to Cart</button>
+      </li>
+      <!-- Add more products with images -->
+    </ul>
+  </main>
+  <footer>
+    <p>&copy; 2023 My E-commerce Store. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

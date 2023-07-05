@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My E-commerce Store - Checkout</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Store</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Checkout</h2>
+    <!-- Checkout form goes here -->
+    <form id="checkout-form">
+      <!-- Form fields for customer information -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <!-- Other form fields go here -->
+
+      <button type="submit" onclick="placeOrder()">Place Order</button>
+    </form>
+    <div id="thank-you-message" style="display: none;">
+      <h3>Thank you for your order!</h3>
+      <p>Your order has been placed successfully.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 My E-commerce Store. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
